@@ -24,6 +24,7 @@ h1 {
   color: #000;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
+  font-weight: normal;
 }
 
 .TodoWrapper {
@@ -52,6 +53,7 @@ h1 {
 
 .todo-input::placeholder {
   color: #000;
+  font-style: italic;
 }
 
 .todo-btn {
@@ -73,8 +75,13 @@ h1 {
   border: 1px solid #000;
   border-radius: 5px;
   margin-bottom: 1rem;
-  cursor: pointer;
+}
 
+
+
+.Todo p {
+  cursor: pointer;
+  padding-right: 0.75rem;
 }
 
 .fa-trash {
@@ -83,7 +90,16 @@ h1 {
 }
 
 .completed {
-  color: #c5aeff;
+  color: #000;
   text-decoration: line-through;
 }
+
+.clear-btn{
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
  
+.current-date {
+  padding-bottom: 1rem
+}
+
